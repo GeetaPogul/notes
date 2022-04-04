@@ -1,0 +1,23 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.nav-link {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: bold;
+  padding: 0.6rem 2rem;
+}
+
+.nav-link:hover {
+  color: white;
+}
+.navigate {
+  display: inline-flex;
+}
+
+.navbar {
+  width: 50vw;
+}
+
+.fa-star{
+  font-size: 2.5rem;
+}

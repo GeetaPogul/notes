@@ -1,0 +1,41 @@
+@import url("./root.css");
+.sub-links {
+  color: black;
+  margin: 1rem 0.3rem;
+  display: block;
+}
+.wrapper {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.slider {
+  width: 12rem;
+  margin-left: 0.5rem;
+}
+.slider-content {
+  padding-top: 3rem;
+  margin-left: 5rem;
+  max-width: 40rem;
+}
+
+.sub-links {
+  font-size: 1.4rem;
+  color: black;
+  font-weight: bold;
+  padding: 0.6rem 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.sub-links:hover {
+  /* color: var(--primary-color); */
+  background-color: var(--primary-color);
+  color: var(--text-hover-color);
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.active-link{
+  background-color: var(--primary-color);
+}
