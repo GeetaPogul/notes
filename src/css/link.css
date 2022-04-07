@@ -1,6 +1,6 @@
 @import url("./root.css");
 .sub-links {
-  color: black;
+  color: var(--text-color);
   margin: 1rem 0.3rem;
   display: block;
 }
@@ -17,12 +17,12 @@
 .slider-content {
   padding-top: 3rem;
   margin-left: 5rem;
-  max-width: 40rem;
+  max-width: 70rem;
 }
 
 .sub-links {
   font-size: 1.4rem;
-  color: black;
+  color: var(--text-color);
   font-weight: bold;
   padding: 0.6rem 2rem;
   border-top-right-radius: 2rem;
@@ -30,12 +30,11 @@
 }
 
 .sub-links:hover {
-  /* color: var(--primary-color); */
   background-color: var(--primary-color);
   color: var(--text-hover-color);
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
 }
-.active-link{
+.active-link {
   background-color: var(--primary-color);
 }

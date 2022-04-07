@@ -13,8 +13,8 @@ const SubLink = () => {
           <Link className="sub-links nav-link" to="/label">
             Label
           </Link>
-          <Link className="sub-links nav-link" to="/remainder">
-            Remainder
+          <Link className="sub-links nav-link" to="/archive">
+            Archive
           </Link>
           <Link className="sub-links nav-link" to="/trash">
             Trash
