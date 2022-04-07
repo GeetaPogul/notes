@@ -42,7 +42,7 @@ const AddNotes = (props) => {
         <div>
           {expand ? (
             <input
-              className="input-box"
+              className="input_box"
               type="text"
               name="title"
               value={note.title}

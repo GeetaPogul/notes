@@ -1,0 +1,59 @@
+.page-container{
+    background-color: white;
+    width: max-content;
+    line-height: 1.7rem;
+    margin: auto;
+    color : var(--text-color);
+    border-radius: .2rem;
+    /* box-shadow: var(--shadow-color); */
+
+}
+form{
+    padding: 2rem;
+    margin: auto;
+}
+
+.input-box{
+    height: 2.4rem;
+    width:26rem;
+    border-radius: .2rem;
+    padding-left: .4rem;
+    font-size: 1.1rem;
+    border : 2px solid var(--primary-color);
+    outline: none;
+}
+.input-label{
+    font-size: 1.4rem;
+}
+
+.forget-pass{
+    margin-left: 8rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.star{
+    color: var(--danger-color);
+}
+
+.btns{
+   border-style: none;
+   padding: 0 1.9rem;
+   height: 2.3rem;
+   margin: 0 2rem;
+   border-radius: .2rem;
+   font-size: 1.1rem;
+
+}
+
+.btn-login{
+    background-color: var(--primary-color);
+    color: var(--text-color);   
+}
+
+.btn-bar{
+    text-align: center;
+}

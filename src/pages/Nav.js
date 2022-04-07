@@ -9,6 +9,7 @@ import Login from "./Login";
 import Notes from "./Notes";
 import Archive from "./Archive";
 import Trash from "./Trash";
+import Signup from "./Signup";
 
 const Nav = () => {
   return (
@@ -55,6 +56,7 @@ const Nav = () => {
         <Route path="/notes" element={<Notes />} />
         <Route path="/trash" element={<Trash />} />
         <Route path="/archive" element={<Archive />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </div>
   );

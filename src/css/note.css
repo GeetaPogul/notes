@@ -1,20 +1,18 @@
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .main_note {
-  /* background-color: red; */
+ 
   width: 24rem;
   align-items: center;
   display: block;
   padding-top: 0.3rem;
-  box-shadow: rgb(151 140 140) 0px 3px 8px;
+  
+  box-shadow: var(--shadow-color);
 }
 
-.input-box {
+.input_box {
   height: 3rem;
   width: 22.5rem;
   font-weight: bold;
@@ -42,11 +40,11 @@ textarea {
   padding: 1rem;
 
   padding-top: 0.3rem;
-  box-shadow: rgb(151 140 140) 0px 3px 8px;
+  box-shadow: var(--shadow-color);
 }
 
 .demo-parent-note {
-  background-color: blue;
+  
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;

@@ -3,4 +3,7 @@
   --text-color: #000000;
   --text-hover-color: #ffffff;
   --heading-color: #333333;
+  --shadow-color :rgb(151 140 140) 0px 3px 8px;
+  --link-color: #1e90ff;
+  --danger-color: red;
 }
