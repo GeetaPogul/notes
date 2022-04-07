@@ -9,14 +9,13 @@ const Notes = () => {
   const [addItems, setAddItems] = useState([]);
 
   const addNewNote = (note) => {
-    // alert ("I am Clicked");
     setAddItems((previousData) => {
       return [...previousData, note];
     });
 
     console.log(note);
   };
-  const onDelete = (id) => {
+  const onDeleteNote = (id) => {
     console.log("deltete note");
     setAddItems((olddata) =>
       olddata.filter((currData, indx) => {
@@ -43,7 +42,7 @@ const Notes = () => {
                     id={index}
                     title={value.title}
                     content={value.content}
-                    deleteItem={onDelete}
+                    deleteItem={onDeleteNote}
                   />
                 </div>
               );

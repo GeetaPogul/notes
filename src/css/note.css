@@ -1,7 +1,5 @@
 
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-@import url("https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("./main.css");
 .main_note {
  
   width: 24rem;
@@ -23,8 +21,7 @@
   max-width: 23rem;
 }
 
-textarea {
-  outline: none;
+.sub-text{  outline: none;
   border-style: none;
   padding: 0.5rem;
 }

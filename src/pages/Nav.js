@@ -1,15 +1,16 @@
 import React from "react";
 import "../css/nav.css";
 
-import { Route, Routes, Link } from "react-router-dom";
-import Home from "./Home";
-import Docs from "./Docs";
-import Label from "./Label";
-import Login from "./Login";
-import Notes from "./Notes";
-import Archive from "./Archive";
-import Trash from "./Trash";
-import Signup from "./Signup";
+import { Link } from "react-router-dom";
+// import Home from "./Home";
+// import Docs from "./Docs";
+// import Label from "./Label";
+// import Login from "./Login";
+// import Notes from "./Notes";
+// import Archive from "./Archive";
+// import Trash from "./Trash";
+// import Signup from "./Signup";
+import RoutesPage from "./RoutesPage";
 
 const Nav = () => {
   return (
@@ -46,9 +47,10 @@ const Nav = () => {
           </Link>
         </div>
       </nav>
+     
 
-      <Routes>
-        {/* <Route path="/trash"  element={ <Trash /> } /> */}
+     <RoutesPage />
+      {/* <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/docs" element={<Docs />} />
         <Route path="/login" element={<Login />} />
@@ -57,7 +59,7 @@ const Nav = () => {
         <Route path="/trash" element={<Trash />} />
         <Route path="/archive" element={<Archive />} />
         <Route path="/signup" element={<Signup />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 };

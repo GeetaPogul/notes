@@ -5,6 +5,8 @@ import "../css/note.css";
 const DemoNote = (props) => {
   const deleteNote = () => {
     props.deleteItem(props.id);
+
+    console.log("note is deleted")
   };
   return (
     <>
