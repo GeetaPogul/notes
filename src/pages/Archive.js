@@ -11,7 +11,7 @@ const Archive = () => {
         </div>
 
         <div className="slider-content">
-          <h1> Archive Page</h1>
+          <h1> Archive Notes</h1>
         </div>
       </div>
     </>

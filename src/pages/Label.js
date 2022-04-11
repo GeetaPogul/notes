@@ -11,7 +11,7 @@ const Label = () => {
         </div>
 
         <div className="slider-content">
-          <h1> LABEL PAGE</h1>
+          <h1> Label Notes</h1>
         </div>
       </div>
     </>

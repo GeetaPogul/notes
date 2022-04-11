@@ -1,12 +1,10 @@
-
 @import url("./main.css");
 .main_note {
- 
   width: 24rem;
   align-items: center;
   display: block;
   padding-top: 0.3rem;
-  
+  gap: 2rem;
   box-shadow: var(--shadow-color);
 }
 
@@ -21,7 +19,8 @@
   max-width: 23rem;
 }
 
-.sub-text{  outline: none;
+.sub-text {
+  outline: none;
   border-style: none;
   padding: 0.5rem;
 }
@@ -41,13 +40,13 @@
 }
 
 .demo-parent-note {
-  
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .demo-child-note {
+  width: 16rem;
   max-width: 16rem;
   height: auto;
 }
@@ -73,4 +72,13 @@
 }
 .create-note-div {
   text-align: center;
+}
+
+.trash-notes {
+  padding: 2rem;
+}
+
+.date-div {
+  float: left;
+  padding: 0.6rem 0.4rem;
 }

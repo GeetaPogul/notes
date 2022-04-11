@@ -17,7 +17,7 @@ const SubLink = () => {
             Archive
           </Link>
           <Link className="sub-links nav-link" to="/trash">
-            Trash
+            <i className="fas fa-hear"></i> Trash
           </Link>
         </div>
 
