@@ -3,9 +3,14 @@ import { useDelNote } from "../context/DelNote-context";
 import "../css/note.css";
 
 const DemoNote = (props) => {
+
   const deleteNote = () => {
     props.deleteItem(props.id);
   };
+
+  const archiveNote = () => {
+    props.archiveItem(props.id);
+  }
 
   const d = new Date();
 
@@ -34,7 +39,9 @@ const DemoNote = (props) => {
 
           <div className="btns-end">
             <span className="date-div"> Date : {dateStr}</span>
-            <button className="btn btn-outline-warning btn-archive icon-btns">
+            <button
+             onClick={archiveNote}
+            className="btn btn-outline-warning btn-archive icon-btns">
               <i className="material-icons">archive</i>
             </button>
             <button
