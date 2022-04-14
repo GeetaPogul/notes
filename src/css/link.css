@@ -5,7 +5,7 @@
   display: block;
 }
 .wrapper {
-  margin-top: 2em;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
 }
@@ -16,8 +16,8 @@
 }
 .slider-content {
   padding-top: 3rem;
-  margin-left: 5rem;
-  max-width: 70rem;
+  margin: 0 5rem;
+  max-width: 72rem;
 }
 
 .sub-links {

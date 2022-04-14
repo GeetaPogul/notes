@@ -4,36 +4,40 @@ import "../css/link.css";
 import "../css/note.css";
 import AddNotes from "./AddNotes";
 import DemoNote from "./DemoNote";
+import { useDelNote } from "../context/DelNote-context";
 
 const Notes = () => {
   const [addItems, setAddItems] = useState([]);
 
+  const { delnoteDispatch } = useDelNote();
+
   const addNewNote = (note) => {
-    // alert ("I am Clicked");
     setAddItems((previousData) => {
       return [...previousData, note];
     });
-
-    console.log(note);
   };
-  const onDelete = (id) => {
-    console.log("deltete note");
+
+  const onDeleteNote = (id) => {
+    const deletedNote = addItems.find((item, index) => index === id);
+
+    delnoteDispatch({ type: "MOVE_TO_TRASH", payload: deletedNote });
     setAddItems((olddata) =>
-      olddata.filter((currData, indx) => {
-        return indx !== id;
+      olddata.filter((currData, index) => {
+        return index !== id;
       })
     );
   };
+
   return (
     <>
       <div className="wrapper">
         <div className="slider">
           <SubLink />
         </div>
-
         <div className="slider-content">
           <AddNotes passNote={addNewNote} className="create-note-div" />
           <br />
+          <h2 className="h2"> All Notes :</h2>
           <div className="demo-parent-note">
             {addItems.map((value, index) => {
               return (
@@ -43,12 +47,12 @@ const Notes = () => {
                     id={index}
                     title={value.title}
                     content={value.content}
-                    deleteItem={onDelete}
+                    deleteItem={onDeleteNote}
                   />
                 </div>
               );
             })}
-          </div>{" "}
+          </div>
           <br /> <br />
         </div>
       </div>

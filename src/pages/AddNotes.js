@@ -29,20 +29,20 @@ const AddNotes = (props) => {
     });
   };
 
-  const expandNoteBox = () => {
+  const showNoteModal = () => {
     setExpand(true);
   };
 
-  const backToShrink = () => {
+  const hideNoteModal = () => {
     setExpand(false);
   };
   return (
     <div>
-      <div className="main_note " onDoubleClick={backToShrink}>
+      <div className="main_note " onDoubleClick={hideNoteModal}>
         <div>
           {expand ? (
             <input
-              className="input-box"
+              className="input_box"
               type="text"
               name="title"
               value={note.title}
@@ -51,13 +51,13 @@ const AddNotes = (props) => {
               autoComplete="off"
             />
           ) : null}
-          <textarea
-            className="note-sub-text"
+          <textarea 
+            className="sub-text"
             cols="45"
             name="content"
             value={note.content}
             onChange={InputEvent}
-            onClick={expandNoteBox}
+            onClick={showNoteModal}
             placeholder=" Write a note..."
           ></textarea>
         </div>
