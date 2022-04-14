@@ -2,14 +2,6 @@ import React from "react";
 import "../css/nav.css";
 
 import { Link } from "react-router-dom";
-// import Home from "./Home";
-// import Docs from "./Docs";
-// import Label from "./Label";
-// import Login from "./Login";
-// import Notes from "./Notes";
-// import Archive from "./Archive";
-// import Trash from "./Trash";
-// import Signup from "./Signup";
 import RoutesPage from "./RoutesPage";
 
 const Nav = () => {
@@ -47,9 +39,8 @@ const Nav = () => {
           </Link>
         </div>
       </nav>
-     
 
-     <RoutesPage />
+      <RoutesPage />
       {/* <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/docs" element={<Docs />} />

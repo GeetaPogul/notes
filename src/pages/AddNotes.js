@@ -51,7 +51,7 @@ const AddNotes = (props) => {
               autoComplete="off"
             />
           ) : null}
-          <textarea 
+          <textarea
             className="sub-text"
             cols="45"
             name="content"

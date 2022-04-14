@@ -1,59 +1,61 @@
-.page-container{
-    background-color: white;
-    width: max-content;
-    line-height: 1.7rem;
-    margin: auto;
-    color : var(--text-color);
-    border-radius: .2rem;
-    /* box-shadow: var(--shadow-color); */
-
-}
-form{
-    padding: 2rem;
-    margin: auto;
+.page-container {
+  background-color: white;
+  width: max-content;
+  line-height: 1.7rem;
+  margin: auto;
+  color: var(--text-color);
+  border-radius: 0.2rem;
 }
 
-.input-box{
-    height: 2.4rem;
-    width:26rem;
-    border-radius: .2rem;
-    padding-left: .4rem;
-    font-size: 1.1rem;
-    border : 2px solid var(--primary-color);
-    outline: none;
+.heading_top {
+  margin-top: 1rem;
+  text-align: center;
 }
-.input-label{
-    font-size: 1.4rem;
+form {
+  padding: 2rem;
+  margin: auto;
 }
 
-.forget-pass{
-    margin-left: 8rem;
+.input-box {
+  height: 2.4rem;
+  width: 26rem;
+  border-radius: 0.2rem;
+  padding-left: 0.4rem;
+  font-size: 1.1rem;
+  border: 2px solid var(--primary-color);
+  outline: none;
+}
+.input-label {
+  font-size: 1.4rem;
 }
 
-a{
-    text-decoration: none;
-    color: var(--link-color);
+.forget-pass {
+  margin-left: 8rem;
 }
 
-.star{
-    color: var(--danger-color);
+a {
+  text-decoration: none;
+  color: var(--link-color);
 }
 
-.btns{
-   border-style: none;
-   padding: 0 1.9rem;
-   height: 2.3rem;
-   margin: 0 2rem;
-   border-radius: .2rem;
-   font-size: 1.1rem;
-
+.star {
+  color: var(--danger-color);
 }
 
-.btn-login{
-    background-color: var(--primary-color);
-    color: var(--text-color);   
+.btns {
+  border-style: none;
+  padding: 0 1.9rem;
+  height: 2.3rem;
+  margin: 0 2rem;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
 }
 
-.btn-bar{
-    text-align: center;
+.btn-login {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.btn-bar {
+  text-align: center;
 }

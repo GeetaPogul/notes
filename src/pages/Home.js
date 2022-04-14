@@ -4,7 +4,6 @@ import "../css/home.css";
 const Home = () => {
   return (
     <>
-      {/* <h1> Home Page</h1> */}
       <div className="main-content content">
         <div className="main-heading"> Create.</div>
         <div> Notes of your choices.</div>
@@ -14,7 +13,7 @@ const Home = () => {
           This is a digital notebook that blends notes, tasks, and a daily
           planner into one app.
         </p>
-      </div>{" "}
+      </div>
       <br />
       <Link className="nav-link align-center" to="/docs">
         <button className="btn btn-outline-warning "> Take a Note </button>
