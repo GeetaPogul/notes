@@ -4,8 +4,7 @@ import "../css/link.css";
 import { useArchiveNote } from "../context/archiveNote-context";
 
 const Archive = () => {
-
-  const {archiveNoteState} = useArchiveNote();
+  const { archiveNoteState } = useArchiveNote();
 
   const d = new Date();
 
@@ -23,8 +22,7 @@ const Archive = () => {
         </div>
 
         <div className="slider-content">
-          <h2> Archive Notes</h2> <br/>
-
+          <h2> Archive Notes</h2> <br />
           <div className="demo-parent-note">
             {archiveNoteState.map((note) => (
               <div className="new-note trash-notes">
@@ -32,12 +30,9 @@ const Archive = () => {
                   <h3> {note.title}</h3>
                   <p>{note.content}</p>
                   <span className="date-div"> Date : {dateStr} </span>
-
                 </div>
-
               </div>
             ))}
-
           </div>
         </div>
       </div>

@@ -14,8 +14,7 @@ const Trash = () => {
   const year = d.getFullYear();
 
   const dateStr = date + "/" + month + "/" + year;
-  // console.log(dateStr);
-  // console.log(delnoteState);
+
   return (
     <>
       <div className="wrapper">

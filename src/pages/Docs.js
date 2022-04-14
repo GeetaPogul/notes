@@ -12,10 +12,10 @@ const Docs = () => {
         </div>
 
         <div className="slider-content container container-md container-lg">
-          {/* DOCCS */}
           <Link className="nav-link align-left" to="/notes">
             <button className="btn btn-outline-warning ">
-            <i className="fas fa-plus" aria-hidden="true"></i> Create a New Note
+              <i className="fas fa-plus" aria-hidden="true"></i> Create a New
+              Note
             </button>
           </Link>
         </div>
